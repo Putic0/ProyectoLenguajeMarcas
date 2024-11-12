@@ -1,0 +1,31 @@
+<!DOCTYPE Videojuego [
+<!ELEMENT Videojuego (LOL)>
+<!ELEMENT LOL (Personajes+,Objetos+)>
+<!ELEMENT Personajes (SplashArt,ID, Nombre, Lanzamiento, Género, Edad, Clase+, Descripción, Habilidades+)>
+<!ELEMENT SplashArt EMPTY>
+<!ATTLIST SlpashArt url CDATA #REQUIRED>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Lanzamiento (#PCDATA)>
+<!ELEMENT Género (#PCDATA) EMPTY>
+<!ATTLIST Género tipo (Hombre | Mujer | Otro) #REQUIRED>
+<!ELEMENT Edad (#PCDATA)>
+<!ELEMENT Clase (#PCDATA) EMPTY>
+<!ATTLIST Clase tipo (Mago | Tanque | Soporte | Asesino | Tirador | Especialista) #REQUIRED>
+<!ELEMENT Descripción (#PCDATA)>
+<!ELEMENT Habilidades (Pasiva, PrimeraHab, SegundaHab, TerceraHab, Definitiva)>
+<!ELEMENT Pasiva (#PCDATA)>
+<!ELEMENT PrimeraHab (#PCDATA)>
+<!ELEMENT SegundaHab (#PCDATA)>
+<!ELEMENT TerceraHab (#PCDATA)>
+<!ELEMENT Definitiva (#PCDATA)>
+<!ELEMENT Objetos (Foto, ID, Nombre, Introducción, Atributos+, ClaseRe+, Descripción)
+<!ELEMENT Foto EMPTY>
+        <!ATTLIST Foto url CDATA #REQUIRED>
+        <!ELEMENT Introducción (#PCDATA)>
+<!ELEMENT Atributos (#PCDATA) EMPTY>
+<!ATTLIST Atributos tipo (Vida | DañoFIS | DañoMAG | Armadura | Velocidad | VelocidadAtaque | PenetraciónMAG | PenetraciónFIS | FuerzaEscudos | Crítico | Letalidad | VelocidadHAB | DañoCrit)
+<!ELEMENT ClaseRe (#PCDATA) EMPTY>
+<!ATTLIST ClaseRe (Mago | Tanque | Soporte | Asesino | Tirador | Especialista) #REQUIRED)>
+]
+

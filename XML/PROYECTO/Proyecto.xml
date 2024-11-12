@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Videojuego SYSTEM "UltraDTD.dtd">
+
+<Videojuego>
+    <LOL>
+        <Personajes>
+            <SplashArt url="PROYECTO/985.png"></SplashArt>
+            <ID>23</ID>
+            <Nombre>Xayah</Nombre>
+            <Lanzamiento>19/04/2017</Lanzamiento>
+            <Género tipo="Mujer" />
+            <Edad>25</Edad>
+            <Clase tipo="Tirador"/>
+            <Descripción> Xayah es una vastaya revolucionaria que libra una guerra personal para salvar a su pueblo.</Descripción>
+            <Habilidades>
+                <Pasiva>Corte Limpio</Pasiva>
+                <PrimeraHab>Daga Doble</PrimeraHab>
+                <SegundaHab>Plumaje Mortífero</SegundaHab>
+                <TerceraHab>Dagas a mí</TerceraHab>
+                <Definitiva>Tormenta de plumas</Definitiva>
+            </Habilidades>
+        </Personajes>
+        <Personajes>
+            <SplashArt url="PROYECTO/1200.png"></SplashArt>
+            <ID>24</ID>
+            <Nombre>Rakan</Nombre>
+            <Lanzamiento>19/04/2017</Lanzamiento>
+            <Género tipo="Hombre" />
+            <Edad>24</Edad>
+            <Clase tipo="Soporte"/>
+            <Descripción>Rakan es un infame alborotador vastaya y el mejor bailarín de batalla de la historia tribal de Lhotlan.</Descripción>
+            <Habilidades>
+                <Pasiva>Plumas Encantadas</Pasiva>
+                <PrimeraHab>Péndola Reluciente</PrimeraHab>
+                <SegundaHab>Entrada Grandiosa</SegundaHab>
+                <TerceraHab>Danza de batalla</TerceraHab>
+                <Definitiva>La premura</Definitiva>
+            </Habilidades>
+        </Personajes>
+        <Personajes>
+            <SplashArt url="PROYECTO/1100.png"></SplashArt>
+            <ID>30</ID>
+            <Nombre>Ornn</Nombre>
+            <Lanzamiento>23/08/2017</Lanzamiento>
+            <Género tipo="Hombre" />
+            <Edad>9998</Edad>
+            <Clase tipo="Tanque"/>
+            <Descripción>Semidiós de Freljord de la forja y la artesanía.</Descripción>
+            <Habilidades>
+                <Pasiva>Forja viviente</Pasiva>
+                <PrimeraHab>Ruptura volcánica</PrimeraHab>
+                <SegundaHab>Aliento de fuelle</SegundaHab>
+                <TerceraHab>Carga candente</TerceraHab>
+                <Definitiva>LLamada del dios de la forja</Definitiva>
+            </Habilidades>
+        </Personajes>
+        <Personajes>
+            <SplashArt url="PROYECTO/nocturne.png"></SplashArt>
+            <ID>06</ID>
+            <Nombre>Nocturne</Nombre>
+            <Lanzamiento>15/03/2011</Lanzamiento>
+            <Género tipo="Otro" />
+            <Edad>1004</Edad>
+            <Clase tipo="Asesino"/>
+            <Descripción>Fusión demoníaca extraída de las pesadillas que acechan a todas las mentes conscientes.</Descripción>
+            <Habilidades>
+                <Pasiva>Espadas oscuras</Pasiva>
+                <PrimeraHab>Portador del anochecer</PrimeraHab>
+                <SegundaHab>Velo de oscuridad</SegundaHab>
+                <TerceraHab>Horror inenarrable</TerceraHab>
+                <Definitiva>Paranoia</Definitiva>
+            </Habilidades>
+        </Personajes>
+        <Personajes>
+            <SplashArt url="PROYECTO/Zoe_0.png"></SplashArt>
+            <ID>33</ID>
+            <Nombre>Zoe</Nombre>
+            <Lanzamiento>21/11/2017</Lanzamiento>
+            <Género tipo="Mujer" />
+            <Edad>1398</Edad>
+            <Clase tipo="Mago"/>
+            <Descripción>Personificación de la travesura, de la imaginación y del cambio, Zoe es la mensajera cósmica de Targon</Descripción>
+            <Habilidades>
+                <Pasiva>¡Más chispas!</Pasiva>
+                <PrimeraHab>Pádel estelar</PrimeraHab>
+                <SegundaHab>Ladrona de hechizos</SegundaHab>
+                <TerceraHab>Burbuja somnífera</TerceraHab>
+                <Definitiva>Salto dimensional</Definitiva>
+            </Habilidades>
+        </Personajes>
+    <Personajes>
+        <SplashArt url="PROYECTO/Singed.png"></SplashArt>
+        <ID>01</ID>
+        <Nombre>Singed</Nombre>
+        <Lanzamiento>18/04/2009</Lanzamiento>
+        <Género tipo="Hombre" />
+        <Edad>102</Edad>
+        <Clase tipo="Especialista"/>
+        <Descripción>brillante alquimista de cuestionable moralidad cuyos experimentos le revolverían el estómago hasta al criminal más despiadado.</Descripción>
+        <Habilidades>
+            <Pasiva>Estela nociva</Pasiva>
+            <PrimeraHab>Rastro de veneno</PrimeraHab>
+            <SegundaHab>Megaadhesivo</SegundaHab>
+            <TerceraHab>Lanzar</TerceraHab>
+            <Definitiva>Poción de demencia</Definitiva>
+        </Habilidades>
+    </Personajes>
+        <Objetos>
+            <Foto url="PROYECTO/250.png"></Foto>
+            <ID>20</ID>
+            <Nombre>Descontento de Liandry</Nombre>
+            <Introducción>2012</Introducción>
+            <Atributos tipo="DañoMAG" />
+            <Atributos tipo="Vida" />
+            <ClaseRe tipo="Mago" />
+            <ClaseRe tipo="Tanque" />
+            <Descripción>Objeto legendario que quema a los enemigos por un tiempo</Descripción>
+        </Objetos>
+        <Objetos>
+            <Foto url="PROYECTO/3142.png"></Foto>
+            <ID>03</ID>
+            <Nombre>Espada fantasma de Youmuu</Nombre>
+            <Introducción>2011</Introducción>
+            <Atributos tipo="DañoFIS" />
+            <Atributos tipo="Letalidad" />
+            <Atributos tipo="Velocidad" />
+            <ClaseRe tipo="Asesino" />
+            <Descripción>Objeto legendario que otorga breve velocidad de moviento al activarlo y fuera de combate</Descripción>
+        </Objetos>
+    </LOL>
+</Videojuego>
