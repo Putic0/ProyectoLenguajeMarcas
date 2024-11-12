@@ -12,4 +12,11 @@ Como ya he dicho antes definiré en esta propuesta un personaje de cada clase de
 
 ### Expansiones
 
-Continuaré el proyecto a lo largo del curso añadiendo los mapas jugables y entrando en otras caracteristicas del juego, como el modo competitivo y sus premios, las actualizaciones a lo largo de estos 15 años que tiene el juego y los proyectos secundarios que tiene el estudio, como la reciente segunda temporada de su serie animada "Arcane".
+Continuaré el proyecto a lo largo del curso añadiendo los mapas jugables y entrando en otras caracteristicas del juego, como el modo competitivo y sus premios, las actualizaciones a lo largo de estos 15 años que tiene el juego, los proyectos secundarios que tiene el estudio, como la reciente segunda temporada de su serie animada "Arcane" y los cosméticos que se pueden adquirir dentro del juego.
+
+### Especificaciones Técnicas
+
+Los datos se guardarán de esta manera: 
+
+Personajes: ID, Nombre, Fecha de lanzamiento, Género, Edad dentro del juego, Clase, Una pequeña descripción, Habilidades y una recomendación de los objetos.
+Objetos: ID, Nombre, Fecha de introducción, Atributos que da el objeto, Clases recomendadas y una descripción.
